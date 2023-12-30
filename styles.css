@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url("Basketball2.jpg");
+    background-size:cover;
+    height: 100vh;
+    
+}
+#participant{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+}
+.main{
+    width: 575px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #54445ee9;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color:#FF0139;
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size:18px;
+    color: #FF0139;
+    background-color: black;
+    border:2px solid #FF0139;
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+}
+.btn:hover{
+    color:black;
+    background: #FF0139;
+    border:2px solid black;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+#new-game{
+    display: block;
+    margin:20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color:black;
+    background: #ffffff;
+    border:2px solid black;
+    padding:10px 12px;
+}
+#new-game:hover{
+    color:red;
+}
